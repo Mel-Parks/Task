@@ -25,6 +25,9 @@ Thumbs.db
 # Prisma
 server/prisma/*.db
 server/prisma/migrations/migration_lock.toml
-
+server/.agents
+server/.claude
+server/.cursor
+server/.devin
 # Couverture tests
 coverage/
