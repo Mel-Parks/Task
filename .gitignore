@@ -1,0 +1,30 @@
+# Dépendances
+node_modules/
+.pnp
+.pnp.js
+
+# Environnement
+.env
+.env.local
+.env.*.local
+
+# Build
+dist/
+build/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Prisma
+server/prisma/*.db
+server/prisma/migrations/migration_lock.toml
+
+# Couverture tests
+coverage/
